@@ -13,9 +13,9 @@ POST http://localhost:3000/api/autores
 Content-Type: application/json
 
 {
-    "nombre": "Javier Ortiz",
-    "email": "prueba@prueba.com",
-    "imagen": "https://prueba.com/javier.jpg"
+    "nombre": "Pablo",
+    "email": "pablo@prueba.com",
+    "imagen": "https://prueba.com/pablo.jpg"
 }
 
 ###
@@ -48,7 +48,7 @@ GET http://localhost:3000/api/posts/2
 ###
 
 ### Obtener posts por autor
-GET http://localhost:3000/api/posts/autor/1
+GET http://localhost:3000/api/posts/autor/5
 
 ###
 
@@ -57,10 +57,10 @@ POST http://localhost:3000/api/posts
 Content-Type: application/json
 
 {
-    "titulo": "Mi primer post",
-    "descripcion": "Este es el contenido de mi post",
-    "categoria": "Tecnología",
-    "autor_id": 1
+    "titulo": "Post de Pablo",
+    "descripcion": "Este es el post de prueba de Pablo",
+    "categoria": "Deporte",
+    "autor_id": 5
 }
 
 ###
